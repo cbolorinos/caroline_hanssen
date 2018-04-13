@@ -380,7 +380,7 @@ td.visible-print,th.visible-print{display:table-cell!important}
 @font-face{font-family:RalewayItalic;src:url(/content/themes/cascio/assets//fonts/Canela-LightItalic-Web.eot);src:url(/content/themes/cascio/assets//fonts/Canela-LightItalic-Web.eot?#iefix) format("embedded-opentype"),url(/content/themes/cascio/assets//fonts/Canela-LightItalic-Web.woff2) format("woff2"),url(/content/themes/cascio/assets//fonts/Canela-LightItalic-Web.woff) format("woff");font-weight:300;font-style:italic;font-stretch:normal}
 @font-face{font-family:Raleway;src:url(/content/themes/cascio/assets//fonts/Canela-Light-Web.eot);src:url(/content/themes/cascio/assets//fonts/Canela-Light-Web.eot?#iefix) format("embedded-opentype"),url(/content/themes/cascio/assets//fonts/Canela-Light-Web.woff2) format("woff2"),url(/content/themes/cascio/assets//fonts/Canela-Light-Web.woff) format("woff");font-weight:300;font-style:normal;font-stretch:normal}
 *{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-margin-before:0;-webkit-margin-after:0;-webkit-padding-start:0}
-h1,h2{font-family:Raleway,Times New Roman,serif;font-size:60px;font-weight:300;line-height:1.25em}
+h1,h2{font-family:Raleway,Times New Roman,serif;font-size:45px;font-weight:300;line-height:1.25em}
 h3,h4,h5{font-family:GTAmericaMedium;font-weight:400}
 h1 a,h2 a{font-style:italic;color:inherit}
 a:hover,h1 a:hover,h2 a:hover{color:#f2b041;}
@@ -475,8 +475,8 @@ body header .lang-selector:active,body header .lang-selector:focus,body header .
 @media screen and (max-width:767px){body header .lang-selector{display:inline-block;margin-top:15px;padding-right:20px;position:fixed;top:13px}
 body header .lang-selector:after{content:' ';display:block;width:0;height:0;border-bottom:8px solid currentColor;border-left:8px solid transparent;transform:rotate(45deg);position:absolute;right:0;top:50%;margin-top:-7px}
 }
-body header .languages{text-align:right;position:absolute;}
-body header .languages a{color:currentColor;padding-left:10px;position:relative;font-size:.7894736842em}
+body header .languages{text-align:right;position:absolute;margin-top: 20px;}
+body header .languages a{position:relative;}
 body.nav-is-open header nav#breadcrumbs,nav#main li{color:#0F0F0F}
 body header .languages a.active{font-weight:700}
 @media screen and (max-width:767px){body header .languages{display:none;text-align:left;margin-top:2.2em}
@@ -590,9 +590,10 @@ nav#main .search input:-ms-input-placeholder{color:inherit;font-size:.78em}
 #search-wrapper .search-header .dark-template header .closer,#search-wrapper .search-header [data-bg=purple] header .closer,#search-wrapper .search-header [data-bg=maroon] header .closer,#search-wrapper .search-header [data-bg=black] header .closer,#search-wrapper .search-header body.employees .employee-filter header .closer,.dark-template header #search-wrapper .search-header .closer,.dark-template header .menu-toggle,[data-bg=purple] header #search-wrapper .search-header .closer,[data-bg=purple] header .menu-toggle,[data-bg=maroon] header #search-wrapper .search-header .closer,[data-bg=maroon] header .menu-toggle,[data-bg=black] header #search-wrapper .search-header .closer,[data-bg=black] header .menu-toggle,body.employees .employee-filter header #search-wrapper .search-header .closer,body.employees .employee-filter header .menu-toggle{color:#fff!important}
 #search-wrapper .search-header body.nav-is-open header .closer,body.nav-is-open header #search-wrapper .search-header .closer,body.nav-is-open header .menu-toggle{color:#000!important}
 body.home{background-color:#5fa362}
-body.home h4{font-family: Raleway,sans-serif;font-size: 30px;
-}
-.text p {margin-top:10px;font-size:20px;}
+body.home h4{font-family: Raleway,sans-serif;font-size: 25px; margin-top:10px;}
+.cta {color:#f2b041; font-family: Raleway,sans-serif; font-weight:600; padding:10px 30px;border:3px solid #f2b041; border-radius: 30px; font-size:16px; margin-top:20px;}
+.cta2 {color:#000; font-family: Raleway,sans-serif; font-weight:600; padding:10px 30px; border-radius: 30px; background-color: #caffcc; font-size:16px;}
+.text p {margin-top:10px;}
 body.home h4 a:hover{color:#f2b041;}
 body.home .page-content{padding:0}
 body.home .page-content [data-patterns]{position:absolute;height:100vh;width:40vw;right:-42px;top:-117px;z-index:10;-ms-flex-direction:row;flex-direction:row}
