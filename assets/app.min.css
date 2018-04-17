@@ -389,7 +389,7 @@ td.visible-print,th.visible-print{display:table-cell!important}
 h1,h2{font-family:Raleway,Times New Roman,serif;font-size:45px;font-weight:300;line-height:1.25em}
 h3,h4,h5{font-family:GTAmericaMedium;font-weight:400}
 h1 a,h2 a{font-style:italic;color:inherit}
-a:hover,h1 a:hover,h2 a:hover{color:#f2b041;}
+a:hover,h1 a:hover,h2 a:hover{color:#f29850;}
 @media screen and (max-width:767px){h1,h2{font-size:30px}
 }
 h3,h4{font-size:1em}
@@ -481,7 +481,7 @@ body header .lang-selector:active,body header .lang-selector:focus,body header .
 @media screen and (max-width:767px){body header .lang-selector{display:inline-block;margin-top:15px;padding-right:20px;position:fixed;top:13px}
 body header .lang-selector:after{content:' ';display:block;width:0;height:0;border-bottom:8px solid currentColor;border-left:8px solid transparent;transform:rotate(45deg);position:absolute;right:0;top:50%;margin-top:-7px}
 }
-body header .side-menu{text-align:right;position:absolute;margin-top: 20px;}
+body header .side-menu{text-align:right;position:absolute;}
 body header .side-menu a{position:relative;}
 body.nav-is-open header nav#breadcrumbs,nav#main li{color:#0F0F0F}
 body header .side-menu a.active{font-weight:700}
@@ -590,12 +590,12 @@ nav#main .search input:-ms-input-placeholder{color:inherit;font-size:.78em}
 #search-wrapper section.employees .employee-card a{display:block}
 #search-wrapper section.cases a,#search-wrapper section.expertise a{font-size:1.2631578947em;font-family:Raleway,Times New Roman,serif;display:block}
 #search-wrapper section.cases a:hover,#search-wrapper section.expertise a:hover{color:inherit}
-.dark-template,[data-bg=purple],[data-bg=maroon],[data-bg=black],body.employees .employee-filter{color:#fff}
-.logo-button .cascio-logo .logo-color{fill:#f2b041; transition-duration: 0.5s;}
+.dark-template,[data-bg=purple],[data-bg=maroon],[data-bg=black],body.employees .employee-filter{color:#fff;}
+.logo-button .cascio-logo .logo-color{fill:#f29850; transition-duration: 0.5s;}
 .logo-button:hover .cascio-logo .logo-color{fill:#fff;}
 #search-wrapper .search-header .dark-template header .closer,#search-wrapper .search-header [data-bg=purple] header .closer,#search-wrapper .search-header [data-bg=maroon] header .closer,#search-wrapper .search-header [data-bg=black] header .closer,#search-wrapper .search-header body.employees .employee-filter header .closer,.dark-template header #search-wrapper .search-header .closer,.dark-template header .menu-toggle,[data-bg=purple] header #search-wrapper .search-header .closer,[data-bg=purple] header .menu-toggle,[data-bg=maroon] header #search-wrapper .search-header .closer,[data-bg=maroon] header .menu-toggle,[data-bg=black] header #search-wrapper .search-header .closer,[data-bg=black] header .menu-toggle,body.employees .employee-filter header #search-wrapper .search-header .closer,body.employees .employee-filter header .menu-toggle{color:#fff!important}
 #search-wrapper .search-header body.nav-is-open header .closer,body.nav-is-open header #search-wrapper .search-header .closer,body.nav-is-open header .menu-toggle{color:#000!important}
-body.home{
+body{
 	background: #6ba385; /* Old browsers */
 background: -moz-linear-gradient(top, #6ba385 3%, #5fa362 76%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #6ba385 3%,#5fa362 76%); /* Chrome10-25,Safari5.1-6 */
@@ -605,9 +605,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ba385', end
 body.home h4{font-family: Raleway,sans-serif;font-size: 25px; margin-top:10px;}
 .cta {
   background: none;
-  border: 3px solid #f2b041;
+  border: 3px solid #f29850;
   border-radius: 30px;
-  color: #f2b041;
+  color: #f29850;
   display: block;
   padding:10px 30px;
   margin-top:20px;
@@ -618,7 +618,7 @@ body.home h4{font-family: Raleway,sans-serif;font-size: 25px; margin-top:10px;}
   transition-duration: 0.5s;
 }
 .cta:hover {
-  background: #f2b041;
+  background: #f29850;
   border-radius: 30px;
   color: #5fa362;
   padding:10px 30px;
@@ -638,7 +638,7 @@ body.home h4{font-family: Raleway,sans-serif;font-size: 25px; margin-top:10px;}
   transition-duration: 0.5s;
 }
 .cta2:hover {
-  background: #f2b041;
+  background: #f29850;
   border-radius: 30px;
   padding:10px 30px;
 }
@@ -646,7 +646,7 @@ body.home h4{font-family: Raleway,sans-serif;font-size: 25px; margin-top:10px;}
 .text {margin:10px 0 60px;}
 .invisible-desktop{display:none;}
 .s1 a {margin-top: 30px;}
-body.home h4 a:hover{color:#f2b041;}
+body.home h4 a:hover{color:#f29850;}
 body.home .page-content{padding:0}
 body.home .page-content [data-patterns]{position:absolute;height:100vh;width:40vw;right:-42px;top:-117px;z-index:10;-ms-flex-direction:row;flex-direction:row}
 body.home .page-content [data-patterns] [data-pattern]{min-width:14.2857%!important}
@@ -809,6 +809,7 @@ body.employee-single .employee-image,body.employee-single-basic .employee-image{
 body.employee-single [data-pattern],body.employee-single-basic [data-pattern]{width:100%}
 body.employee-single .pattern-wrap,body.employee-single-basic .pattern-wrap{position:relative;padding-bottom:40%;height:0}
 body.employee-single .pattern-wrap svg,body.employee-single-basic .pattern-wrap svg{position:absolute;height:100%;width:100%;left:0;top:0}
+.employee-info{background-color: rgba(255, 255, 255, 0.8);color:#000;}
 body.employee-single .employee-info,body.employee-single-basic .employee-info{width:110%;padding:4.7em}
 body.employee-single .employee-info h1,body.employee-single-basic .employee-info h1{margin-top:0;margin-bottom:0}
 body.employee-single .employee-info .work-title,body.employee-single-basic .employee-info .work-title{font-family:RalewayItalic;font-style:italic;font-weight:300;font-size:2.21em}
