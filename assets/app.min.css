@@ -387,7 +387,7 @@ td.visible-print,th.visible-print{display:table-cell!important}
 @font-face{font-family:Raleway;src:url(/content/themes/cascio/assets//fonts/Canela-Light-Web.eot);src:url(/content/themes/cascio/assets//fonts/Canela-Light-Web.eot?#iefix) format("embedded-opentype"),url(/content/themes/cascio/assets//fonts/Canela-Light-Web.woff2) format("woff2"),url(/content/themes/cascio/assets//fonts/Canela-Light-Web.woff) format("woff");font-weight:300;font-style:normal;font-stretch:normal}
 *{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-margin-before:0;-webkit-margin-after:0;-webkit-padding-start:0}
 h1,h2{font-family:Raleway,Times New Roman,serif;font-size:45px;font-weight:300;line-height:1.25em}
-h3,h4,h5{font-family:GTAmericaMedium;font-weight:400}
+h3,h4,h5{font-family:Raleway,Times New Roman,serif;font-size:45px;font-weight:300;}
 h1 a,h2 a{font-style:italic;color:inherit}
 a:hover,h1 a:hover,h2 a:hover{color:#f29850;}
 @media screen and (max-width:767px){h1,h2{font-size:30px}
