@@ -87,7 +87,11 @@ a:focus{outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}
 .img-rounded{border-radius:6px}
 .img-thumbnail{padding:4px;line-height:1.42857143;border:1px solid #ddd;border-radius:4px;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}
 .img-circle{border-radius:50%}
-.pekaboo{text-align:center;}
+.pekaboo{text-align:center; display:initial;}
+.pekaround{display:none;}
+.pekaround img{width:100%;}
+.pop-owl{background-image: url("owl4.png"); height:82px; width:225px;margin:0 auto; margin-top:32px;}
+.pop-owl:hover{background-image: url("owl4.5.png"); height:114px; width:225px;margin:0 auto; margin-top:0;}
 hr{margin-top:20px;margin-bottom:20px;border-top:1px solid #eee}
 .sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
 .sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
@@ -327,6 +331,8 @@ hr{margin-top:20px;margin-bottom:20px;border-top:1px solid #eee}
 .affix{position:fixed}
 @-ms-viewport{width:device-width}
 @media (max-width:767px){.visible-xs{display:block!important}
+.pekaboo{display:none;}
+.pekaround{display:initial;padding-left: 0; margin-left: -6px;}
 table.visible-xs{display:table!important}
 tr.visible-xs{display:table-row!important}
 td.visible-xs,th.visible-xs{display:table-cell!important}
