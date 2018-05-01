@@ -856,7 +856,37 @@ body.employee-single .pattern-wrap svg,body.employee-single-basic .pattern-wrap 
 		background-image: none;
 	}
 }
-
+.tabs {
+	margin:10px 5px;
+}
+.tabs li {
+    float:left;
+    width:20%;
+    list-style-type: none;
+}
+.tabs a {
+    text-align: center;
+    display:block;
+    text-decoration:none;
+    color:#f29850;
+    padding:20px 0;
+    border-bottom:2px solid #f29850;
+    background:#6aa381;
+}
+.tabs a:hover, .tabs a:active{
+	background:#ddd;
+}  
+.tabgroup {
+  div {
+    padding:30px;
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+  }
+}
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
 body.employee-single .employee-info,body.employee-single-basic .employee-info{padding:4.7em}
 body.employee-single .employee-info h1,body.employee-single-basic .employee-info h1{margin-top:0;margin-bottom:0}
 body.employee-single .employee-info .work-title,body.employee-single-basic .employee-info .work-title{font-family:Raleway;font-weight:300;font-size:1.4em;max-width:600px;}
