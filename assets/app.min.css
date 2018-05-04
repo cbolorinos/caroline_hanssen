@@ -90,7 +90,7 @@ a:focus{outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}
 .pekaboo{text-align:center; display:initial;}
 .pekaround{display:none;}
 .pekaround img{width:100%;}
-.pop-owl{background-image: url("owl4.png"); height:82px; width:225px;margin:0 auto; margin-top:32px;-webkit-transition: .5s; transition: .5s;transition-timing-function: ease-in;}
+.pop-owl{background-image: url("owl4.png"); height:82px; width:225px;margin:0 auto; margin-top:32px;-webkit-transition: .15s; transition: .15s;transition-timing-function: ease-out;}
 .pop-owl:hover{background-image: url("owl4.png"); height:114px; width:225px;margin:0 auto; margin-top:0;}
 hr{margin-top:20px;margin-bottom:20px;border-top:1px solid #eee}
 .sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
