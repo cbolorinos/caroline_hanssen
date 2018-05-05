@@ -425,7 +425,7 @@ body.page-transition{opacity:0}
 .no-list-style,ul.files{padding:0;list-style:none}
 .employee-card .name a,body header nav#breadcrumbs a:last-child{text-decoration:none}
 .page-content .text-module h1{margin-bottom:2em}
-a:active,a:focus{color:inherit!important}
+a:active,a:focus{color:#e1ede6}
 .space-top{margin-top:200px}
 .vertical-align-center{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center}
 .row.no-gutter{margin-right:0;margin-left:0}
@@ -823,8 +823,8 @@ body.employee-single .pattern-wrap svg,body.employee-single-basic .pattern-wrap 
 .school h1{font-size:28px; margin:0 0 10px;}
 .school p{max-width:none;}
 .study-area p{max-width: none;}
-.title {border:20px solid #e1ede6; padding-bottom: 30px; background-image: url(owl6.png);background-repeat: no-repeat;background-position: right bottom; }
-.title h1 {font-size:60px;}
+.owl-box {border:20px solid #e1ede6; padding-bottom: 30px; background-image: url(owl6.png);background-repeat: no-repeat;background-position: right bottom; }
+.owl-box h1 {font-size:60px;}
 .equalrow {
 	display: -webkit-box;
   display: -webkit-flex;
@@ -852,10 +852,16 @@ body.employee-single .pattern-wrap svg,body.employee-single-basic .pattern-wrap 
 	.equalrow div{
 		margin:10px 0;
 	}
-	.title{
+	.owl-box{
 		background-image: none;
 	}
+	.owl-box h1 {
+		font-size:60px;
+	}
 }
+.owl-box h1 {
+		font-size:45px;
+	}
 .tabs {
 	margin:10px 5px;
 }
@@ -869,12 +875,30 @@ body.employee-single .pattern-wrap svg,body.employee-single-basic .pattern-wrap 
     display:block;
     text-decoration:none;
     color:#f29850;
-    padding:20px 0;
+    padding:20px 10px;
     border-bottom:2px solid #f29850;
     background:#6aa381;
 }
+.tabs a .active {
+	background:rgba(255, 255, 255, 0.07);
+}
+@media screen and (min-width:992px) and (max-width:1373px){
+	.tabs a {
+	height: 108px;
+	}
+}
+@media screen and (min-width:1215px){
+	.tabs a {
+		min-height: 86px;
+	}
+}
+@media screen and (max-width:991px){
+	.tabs li {
+    width:100%;
+	}
+}
 .tabs a:hover, .tabs a:active{
-	background:#ddd;
+	background:rgba(255, 255, 255, 0.07);
 }  
 .tabgroup {
   div {
