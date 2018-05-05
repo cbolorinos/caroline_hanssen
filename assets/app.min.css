@@ -655,6 +655,8 @@ body.home h4{font-family: Raleway,sans-serif;font-size: 25px; margin-top:10px;}
 }
 .text p {margin-top:10px;}
 .text {margin:10px 0 60px;}
+.fine-print{font-style: italic;font-size:0.8em; padding-top:30px;}
+.services p{max-width: none;}
 .invisible-desktop{display:none;}
 .s1 a {margin-top: 30px;}
 body.home h4 a:hover{color:#f29850;}
@@ -878,9 +880,6 @@ body.employee-single .pattern-wrap svg,body.employee-single-basic .pattern-wrap 
     padding:20px 10px;
     border-bottom:2px solid #f29850;
     background:#6aa381;
-}
-.tabs a .active {
-	background:rgba(255, 255, 255, 0.07);
 }
 @media screen and (min-width:992px) and (max-width:1373px){
 	.tabs a {
