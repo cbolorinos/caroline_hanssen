@@ -1198,6 +1198,7 @@ body.employee-single .pattern-wrap svg,body.employee-single-basic .pattern-wrap 
 .modalDialog:target {
     opacity:1;
     pointer-events: auto;
+    overflow: scroll;
 }
 .modalDialog > div {
     width: 90%;
