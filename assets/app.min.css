@@ -994,7 +994,7 @@ body.employee-single .pattern-wrap svg,body.employee-single-basic .pattern-wrap 
   content: '';
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 100px;
   width: 2px;
   height: 13px;
   background-color: white;
