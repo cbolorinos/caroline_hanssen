@@ -522,12 +522,19 @@ nav#main .nav-inner{padding:8em 0;height:100%;z-index:200}
 nav#main .nav-inner .nav-items-wrap{width:60%;padding-right:10px}
 nav#main .nav-inner .nav-items-wrap .search{width:100%}
 }
-nav#main ul li{list-style-type:none;margin-left:0;padding-left:0}
+nav#main ul li{list-style-type:none;margin-left:0;padding-left:0; margin-bottom: 5px;}
 nav#main li{font-family:Raleway,Times New Roman,serif;font-weight:300;font-size:1.5789473684em;transform:translateX(-2rem);opacity:0;transition:opacity .6s cubic-bezier(.785,.135,.15,.86),transform .6s cubic-bezier(.785,.135,.15,.86)}
 nav#main li a{text-decoration:none;color:inherit;border-bottom:1px solid transparent;transition:border .3s cubic-bezier(.785,.135,.15,.86)}
 nav#main li a:hover{color:inherit;border-color:currentColor}
 nav#main li.active{transform:translateX(0);opacity:1}
 nav#main ul.nav{padding-top:200px; max-width: 40%;}
+@media screen and (max-width:767px){
+nav#main li{font-size:1.35em;}
+nav#main ul.nav {
+    margin-top: 80px;
+    max-width: none;
+}
+}
 @media screen and (max-height:850px) and (min-width:769px){nav#main ul.nav{padding-top:0}
 }
 nav#main .secondary{margin-top:20px}
