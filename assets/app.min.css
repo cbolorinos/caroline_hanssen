@@ -425,7 +425,7 @@ body.page-transition{opacity:0}
 a:active,a:focus{color:#e1ede6}
 .space-top{margin-top:200px}
 .vertical-align-center{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center}
-.row.no-gutter{margin-right:0;margin-left:0}
+.row.no-gutter{margin-right:auto;margin-left:auto; max-width:1400px;}
 .row.no-gutter>div{padding-left:0;padding-right:0}
 .row.no-gutter2>.col-sm-4{float:right;}
 .row.no-gutter2{margin-right:0;margin-left:0;margin-top:160px}
