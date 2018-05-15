@@ -594,7 +594,22 @@ nav#main .search input:-ms-input-placeholder{color:inherit;font-size:.78em}
 #search-wrapper .mobile-section-title .title{display:inline-block;background-color:#fff;position:relative;z-index:2;padding-right:5px}
 #search-wrapper section.employees .items{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-12.5px;margin-right:-12.5px}
 #search-wrapper section.employees .employee-card{width:25%;float:left;padding-left:12.5px;padding-right:12.5px;margin-bottom:4em;display:block}
-@media screen and (max-width:767px){#search-wrapper section.employees .employee-card{width:50%}
+body{
+	background: #4da08b; /* Old browsers */
+	background: -moz-linear-gradient(top, #4da08b 0%, #5fa362 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #4da08b 0%,#5fa362 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #4da08b 0%,#5fa362 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4da08b', endColorstr='#5fa362',GradientType=0 ); /* IE6-9 */
+}
+@media screen and (max-width:767px){
+	#search-wrapper section.employees .employee-card{width:50%}
+	body{
+	background: #6ba385; /* Old browsers */
+	background: -moz-linear-gradient(top, #6ba385 3%, #5fa362 76%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #6ba385 3%,#5fa362 76%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #6ba385 3%,#5fa362 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ba385', endColorstr='#5fa362',GradientType=0 ); /* IE6-9 */
+	}
 }
 #search-wrapper section.employees .employee-card:nth-child(4n+1){clear:left}
 .contact-person:after,body.base-page .employee-card:after,body.career .career-section .employee-card:after,body.course-single .employee-card:after,body.employees .filter-dropdown-content>div:after,body.expertise-single ul.related-people li:after{clear:both}
@@ -610,13 +625,6 @@ body{color:#fff;}
 .logo-button:hover .Caroline-logo .logo-color{fill:#fff;}
 #search-wrapper .search-header .dark-template header .closer,#search-wrapper .search-header [data-bg=purple] header .closer,#search-wrapper .search-header [data-bg=maroon] header .closer,#search-wrapper .search-header [data-bg=black] header .closer,#search-wrapper .search-header body.employees .employee-filter header .closer,.dark-template header #search-wrapper .search-header .closer,.dark-template header .menu-toggle,[data-bg=purple] header #search-wrapper .search-header .closer,[data-bg=purple] header .menu-toggle,[data-bg=maroon] header #search-wrapper .search-header .closer,[data-bg=maroon] header .menu-toggle,[data-bg=black] header #search-wrapper .search-header .closer,[data-bg=black] header .menu-toggle,body.employees .employee-filter header #search-wrapper .search-header .closer,body.employees .employee-filter header .menu-toggle{color:#fff!important}
 #search-wrapper .search-header body.nav-is-open header .closer,body.nav-is-open header #search-wrapper .search-header .closer,body.nav-is-open header .menu-toggle{color:#000!important}
-body{
-	background: #6ba385; /* Old browsers */
-	background: -moz-linear-gradient(top, #6ba385 3%, #5fa362 76%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #6ba385 3%,#5fa362 76%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #6ba385 3%,#5fa362 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ba385', endColorstr='#5fa362',GradientType=0 ); /* IE6-9 */
-}
 body.home h4{font-family: Raleway,sans-serif; font-weight:700; font-size: 25px; margin-top:10px;}
 .cta {
   background: none;
@@ -659,8 +667,8 @@ body.home h4{font-family: Raleway,sans-serif; font-weight:700; font-size: 25px; 
 }
 .text p {margin-top:10px;}
 .text {margin:10px 0 60px;}
-.fine-print{font-style: italic;font-size:0.8em; padding-top:30px;}
 .services p{max-width: none;}
+.fine-print{font-style: italic;font-size:0.8em; padding-top:30px; max-width: 600px!important;}
 .invisible-desktop{display:none;}
 .s1 a {margin-top: 30px;}
 body.home h4 a:hover{color:#f29850;}
@@ -828,6 +836,7 @@ body.employee-single .pattern-wrap svg,body.employee-single-basic .pattern-wrap 
 .study-area div{background-color: #e1ede6;color:#000; margin: 0 auto; padding:10px 40px 50px; max-width: 800px;}
 .school {background-color: #e1ede6; color:#000; margin: 0 auto; padding:10px 15px 30px;}
 .school h1{font-size:28px; margin:0 0 10px;}
+.employee-info p{max-width:none;}
 .school p{max-width:none;}
 .study-area p{max-width: none;}
 .owl-box {border:20px solid #e1ede6; padding-bottom: 30px; background-image: url(owl6.png);background-repeat: no-repeat;background-position: right bottom; }
