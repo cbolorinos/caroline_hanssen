@@ -8,5 +8,5 @@ $formcontent=" From: $name \n Add to Mailing List: $call \n Message: $message";
 $recipient = "cbolorinos@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!";
+echo "Location: thankyou.html";
 ?>
