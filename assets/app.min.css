@@ -1233,6 +1233,7 @@ body.employee-single .pattern-wrap svg,body.employee-single-basic .pattern-wrap 
 .form-field-regular {
 	width:100%;
 	opacity: 0.8;
+	color:#000;
 }
 .form-field-submit {
 	background: none;
